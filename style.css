@@ -1,0 +1,57 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.par {
+  text-align: center;
+  margin-top: 200px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+}
+.input {
+  margin-top: 10px;
+  border-radius: 20px;
+  padding-left: 10px;
+  height: 30px;
+}
+.submit {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #49fc03;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  appearance: none;
+}
+.gantoleba {
+  text-align: center;
+  align-items: center;
+  vertical-align: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.x {
+  width: 20px;
+  display: none;
+}
+.output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.answer {
+  margin-top: 16px;
+  font-size: 16px;
+}
